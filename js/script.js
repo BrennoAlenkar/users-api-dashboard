@@ -28,7 +28,7 @@ async function carregarUsuarios() {
         });
 
     } catch (error) {
-        loading.innerText = "Erro ao carregar usuários 😢";
+        loading.innerText = "Erro ao carregar usuários";
         console.error(error);
     }
 }
